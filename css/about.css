@@ -18,19 +18,19 @@ main > div {
 
 /* colour the text of links black */
 main > div > a {
-  color: #4B3C35;
+  color: #ffffff;
   font-size: 18px;
 }
 
 /* Change the colour of links on hover using mouse */
 main > div > a:hover {
-  background-color: #4B3C35;
+  background-color: #ffffff;
   color: #E3DFDE;
 }
 
 /* Change the color of links on focus using tab button */
 main > div > a:focus {
-  background-color: #4B3C35;
+  background-color: #ffffff;
   color: #E3DFDE;
   outline: none;
 }
@@ -45,7 +45,7 @@ main > div > a:focus {
 }
 
 main {
-  background-color: #4B3C35;
+  background-color: #fffffe;
   display: grid;
   grid-template-areas:
   '.'

@@ -3,7 +3,7 @@
 }
 
 body {
-	background: #4B3C35;
+	background: #354b3a;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
 }
@@ -12,7 +12,7 @@ body {
 
 /* Style the header which contains the navigation links */
 header {
-    background-color: #4B3C35;
+    background-color: #354b3a;
     overflow: hidden;
   }
   
@@ -62,7 +62,7 @@ header {
   /* Change the color of links on hover using mouse */
   nav a:hover {
     background-color: #E3DFDE;
-    color: #4B3C35;
+    color: #364b35;
   }
   
   /* Change the color of links on focus using tab key */
@@ -74,13 +74,13 @@ header {
   
   /* Change the color of the active/current link */
   .active_nav {
-    background-color: #87604E;
+    background-color: #4e8767;
     color: white;
   }
 
   
 footer {
-	background: #4B3C35;
+	background: #354b35;
   color: #E3DFDE;
 	padding: 32px;
 	text-align: center;
@@ -100,7 +100,7 @@ footer {
           display:block
         }
   
-        /* Style the Knitters heading */
+        /* Style the bahar handcrfte afghanistan heading */
         h1 {
           text-align: left;
           width: 390px;

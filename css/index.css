@@ -14,7 +14,7 @@ aside {
 
 /* Style the links in the aside section */
 aside a {
-	color: #4B3C35;
+	color: #354b39;
 	display: block;
 	padding: 5px 0;
 	text-decoration: none;
@@ -23,14 +23,14 @@ aside a {
 
 /* Change the color of aside links on hover using mouse */
 aside a:hover {
-	background-color: #4B3C35;
+	background-color: #354b36;
 	color: white;
 }
 
 
 /* Change the color of aside links on focus using tab key */
 aside a:focus {
-  background-color: #4B3C35;
+  background-color: #354b39;
   color: #E3DFDE;
   outline: none;
 }
@@ -38,13 +38,13 @@ aside a:focus {
 
 article {
 	background-color: #E3DFDE;
-	color: #4B3C35;
+	color: #354b3a;
 	font-size: 120%;
 	padding: 0 10px;
 }
 
 article a {
-	color: #4B3C35;
+	color: #354b3a;
 	padding: 5px;
 	text-decoration: none;
 }
@@ -52,14 +52,14 @@ article a {
 /* Change the color of article links on hover using mouse */
 article a:hover {
   background-color: #E3DFDE;
-  color: #4B3C35;
+  color: #354b3d;
 }
 
 
 /* Change the color of article links on focus using tab key */
 article a:focus {
   background-color: white;
-  color: #4B3C35;
+  color: #354b36;
   outline: none;
 }
 
@@ -90,4 +90,11 @@ article a:focus {
 		width: 70%;
 	}
 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.column {
+		max-width: 25%;
+	}
 }
